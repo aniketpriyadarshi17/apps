@@ -1,6 +1,6 @@
 # Privacy Policy for LiftXP
 
-**Effective date: July 23, 2026**
+**Effective date: July 30, 2026**
 
 LiftXP: Ranked Gym Workouts (“LiftXP,” “we,” “us,” or “our”) is a workout, strength, body-weight, nutrition, and fitness-progress tracking application.
 
@@ -40,6 +40,7 @@ LiftXP includes optional AI-powered features for:
 
 - Generating workouts from selected preferences
 - Editing AI-generated workouts
+- Generating personalized workout programs from saved BodyScan results
 - Estimating meals from written descriptions
 - Estimating meals from photos
 - Estimating meals from voice recordings
@@ -58,9 +59,10 @@ Depending on the feature, information sent for AI processing may include:
 - Answers provided to AI follow-up questions
 - A selected workout objective
 - Selected muscle groups or body-area focus
-- Session duration and available equipment
+- Selected schedule, experience level, session duration, and available equipment
 - Exercises in an AI-generated workout
 - Instructions entered to change a workout
+- Saved BodyScan visual scores, estimated body-fat range, strengths, and improvement notes when you request a personalized program; the original physique photo is not included in that program request
 - A full physique photo selected for BodyScan
 - People, objects, backgrounds, or identifying details visible in a submitted photo
 - Instructions added by LiftXP that are necessary to generate the requested result
@@ -69,7 +71,7 @@ For workout generation, LiftXP does not intentionally include your name or unrel
 
 AI requests are sent from your device to OpenRouter, which routes them to Google’s Gemini models. OpenRouter and the selected model provider may also receive standard technical information such as an IP address, request metadata, token counts, timing information, safety-filter information, and similar operational data.
 
-LiftXP configures its OpenRouter requests to require zero-data-retention-compatible routing. This is intended to prevent submitted prompts, photos, recordings, and responses from being retained for ordinary provider logging or model training. OpenRouter may retain non-content request metadata. OpenRouter or its model providers may also process limited information when necessary for security, abuse prevention, billing, service operation, or legal compliance.
+Zero-data-retention routing is disabled for LiftXP’s OpenRouter requests. OpenRouter states that it does not retain prompt or response content unless account-level input/output logging or data-use settings are enabled, but it retains non-content request metadata. Because LiftXP does not enforce zero-data-retention routing, the selected Google endpoint may retain prompts, photos, recordings, other files, and responses under its terms. Google’s terms for Paid Services state that it does not use prompts or responses to improve its products, but it logs them for a limited period to detect and prevent prohibited use and may retain or disclose data as legally required. Provider practices and terms may change.
 
 LiftXP does not use AI-submitted content for advertising.
 
@@ -296,7 +298,7 @@ BodyScan cards saved to your photo library remain there until you delete them us
 
 ### AI providers
 
-AI requests are configured for zero-data-retention-compatible routing. OpenRouter may retain non-content request metadata. OpenRouter and model providers may process or retain limited information when necessary for security, abuse prevention, billing, service operation, or legal compliance.
+AI requests are not restricted to zero-data-retention endpoints. OpenRouter states that it does not retain prompt or response content unless account-level input/output logging or data-use settings are enabled, but it retains non-content request metadata. Google may retain prompts, photos, recordings, other files, and responses for a limited period for safety, abuse prevention, service operation, or legal compliance under its applicable terms. Retention practices and periods are controlled by the providers and may change.
 
 ### Analytics and subscription services
 
